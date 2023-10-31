@@ -10,7 +10,7 @@
     background: linear-gradient(113deg, #35225F 1.18%, #1C1232 55.24%, #000 99.47%), #F8F0EC;
 }
 
-img {
+.img-paciente {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -26,7 +26,7 @@ img {
     line-height: normal;
 }
 
-span {
+.span-paciente {
     color: #000;
     font-family: Poppins;
     font-size: 16px;
@@ -59,7 +59,7 @@ span {
     gap: 13px;
 }
 
-h3 {
+.h3-titulo{
     color: #35225F;
     font-family: Poppins;
     font-size: 20px;
@@ -94,7 +94,7 @@ h3 {
 
 }
 
-p {
+.text {
     color: #FFF;
     font-family: Poppins;
     font-size: 16px;
@@ -142,7 +142,7 @@ p {
     flex-direction: column;
 }
 
-h4 {
+.nome-do-remedio {
     color: #FFF;
     font-family: Poppins;
     font-size: 16px;
@@ -194,7 +194,7 @@ h4 {
     gap: 80px;
 }
 
-button {
+.botaozinho {
     width: 334px;
     height: 70px;
     background: transparent;
