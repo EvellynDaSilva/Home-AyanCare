@@ -1,14 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+body {
+    background: rgb(249, 240, 236);
+    width: 100vw;
+    height: 100vh;
 }
-body{
-        background: rgb(249, 240, 236);
-        width: 100vw;
-        height: 100vh;
-}
+
 .menu-lateral {
     display: flex;
     height: 95vh;
@@ -59,6 +60,7 @@ body{
     gap: 30px;
     margin: 50px 0px 0px;
     color: #35225F;
+    cursor: pointer;
 }
 
 img {
@@ -120,7 +122,8 @@ hr {
     width: 50px;
     height: 50px;
 }
-.relatorio{
+
+.relatorio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,31 +152,92 @@ hr {
     border: 1px solid #D7D3DF;
     background: #FFF;
 }
-.btn-criar{
+
+.btn-criar {
     display: flex;
-width: 100px;
-height: 40px;
-padding: 8px 12px;
-justify-content: center;
-align-items: center;
-gap: 8px;
-border:none;
-border-radius: 4px;
-background: #35225F;
-color: #FFF;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    width: 100px;
+    height: 40px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 4px;
+    background: #35225F;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
 }
-.grupo10{
+
+.grupo10 {
     display: flex;
-height: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card-relatorio {
+    display: flex;
+    width: 360px;
+    height: 78px;
+    border-radius: 4px;
+    border: 0.5px solid #7E6F94;
+    background: #FFF;
+    gap: 8px;
+    padding: 12px;
+}
+
+.folha {
+    display: flex;
+    width: 50px;
+    height: 50px;
+
+}
+
+.title {
+    color: #35225F;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.assunto {
+    color: #9986BD;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.primeira-ordem{
+    display: inline-flex;
+padding-right: 0px;
+flex-direction: column;
 justify-content: center;
 align-items: flex-start;
-gap: 20px;
+gap: 4px;
 }
-.card-relatorio{
 
+.data {
+    color: #7E6F94;
+    font-family: Manrope;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hora{
+    color: #7E6F94;
+font-family: Manrope;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
